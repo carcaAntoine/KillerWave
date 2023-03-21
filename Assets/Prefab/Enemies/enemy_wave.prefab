@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8246538094586708330}
   - component: {fileID: 8246538094588002636}
   - component: {fileID: 8246538094589002636}
+  - component: {fileID: 2195230808934772004}
   m_Layer: 0
   m_Name: enemy_wave_ring
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c2d28ca67d996c140a3cc5dfdc04a003, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,6 +84,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2195230808934772004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246538094587075914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15db95ed516f2034bbf17032e4ab0ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &8246538094587075916
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +158,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 257e3c3af51cbaf4e9839db4fb0ce098, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -176,6 +190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8246538094586708334}
   - component: {fileID: 6073159436844479347}
+  - component: {fileID: 7042000955368218875}
   m_Layer: 0
   m_Name: enemy_wave
   m_TagString: Enemy
@@ -213,3 +228,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 22
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7042000955368218875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246538094587075918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3df41c1f77f554ca73b85451b922fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalSpeed: 5
+  verticalAmplitude: 0.5
