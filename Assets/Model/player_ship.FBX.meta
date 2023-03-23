@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 7b5b3b1fee00e9c4ebfbe199f640a655
-timeCreated: 1588943822
+guid: ba5be836618bbf445be7e02ef8eb9a17
+timeCreated: 1591631085
 licenseType: Pro
 ModelImporter:
   serializedVersion: 22
@@ -14,7 +14,7 @@ ModelImporter:
     9500000: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -67,7 +67,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -86,7 +86,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
