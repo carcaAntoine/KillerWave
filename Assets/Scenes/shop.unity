@@ -186,6 +186,9 @@ MonoBehaviour:
   - {fileID: 163380730}
   - {fileID: 186223882}
   defaultPlayerShip: {fileID: 11400000, guid: 7dd93fb74c62bdb42afc9f200ad2873b, type: 2}
+  androidGameId: 5226515
+  IOSGameId: 5226514
+  testMode: 1
 --- !u!1 &777188560
 GameObject:
   m_ObjectHideFlags: 0
