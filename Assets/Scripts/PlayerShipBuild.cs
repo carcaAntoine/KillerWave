@@ -246,7 +246,7 @@ public class PlayerShipBuild : MonoBehaviour, IUnityAdsListener, IUnityAdsInitia
         Advertisement.Show(adId);
     }
 
-    public void OnUnityInitializationComplete()
+    public void OnInitializationComplete()
     {
         Debug.Log("Unity Ads initialization complete");
     }
@@ -266,7 +266,7 @@ public class PlayerShipBuild : MonoBehaviour, IUnityAdsListener, IUnityAdsInitia
     {
 
     }
-    public void OnUnityAdsDisFinish(string placementId, ShowResult showResult)
+    public void OnUnityAdsDidFinish(string placementId, ShowResult showResult)
     {
         if(showResult == ShowResult.Finished)
         {
